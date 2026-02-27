@@ -1,0 +1,18 @@
+{
+
+ "mcp": {
+        "servers": {
+            "filesystem": {
+                "command": "npx",
+                "args": ["-y", "@modelcontextprotocol/server-filesystem", "${workspaceFolder}"],
+                "type": "stdio"
+            },
+            "fetch": {
+                "command": "npx",
+                "args": ["-y", "@modelcontextprotocol/server-fetch"],
+                "type": "stdio"
+            }
+        }
+    }
+
+}
