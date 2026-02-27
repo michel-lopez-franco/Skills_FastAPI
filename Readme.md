@@ -16,3 +16,23 @@ Las habilidades de Claude Code siguen el estándar abierto de Habilidades de Age
 ## Intentar aprender a usar skills
 
 La skill actuaría como un "profesor" que sigue siempre la misma estructura pedagógica. Aquí cómo quedaría:
+
+```sh
+Usa la skill fastapi-tutor para enseñarme middlewares en FastAPI
+
+Genera una guía de middlewares en FastAPI siguiendo la skill fastapi-tutor
+```
+
+
+
+
+# Comandos basicos
+
+```sh
+uv init --python 3.12 nombre_del_proyecto
+
+uv python pin 3.12 --global
+
+
+fastapi dev main.py
+```
